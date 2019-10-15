@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 
 const Say = () => {
   const [message, setMessage] = useState('');
-  const onClickEnter = () => setMessage('입장하셨습니다.');
-  const onClickLeave = () => setMessage('퇴장하셨습니다.');
+  const onClickEnter = () => setMessage('입장하셨습니다!');
+  const onClickLeave = () => setMessage('퇴장하셨습니다!');
 
   const [color, setColor] = useState('black');
 
@@ -21,7 +21,10 @@ const Say = () => {
       <button style={{ color: 'blue' }} onClick={() => setColor('blue')}>
         파란색
       </button>
-    </div>
+      <button style={{ color: 'hotpink' }} onClick={() => setColor('hotpink')}>
+        핑꾸색
+      </button>
+    </div> 
   );
 };
 
