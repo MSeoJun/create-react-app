@@ -22,6 +22,7 @@ class ValidationSample extends Component {
   render() {
     return (
       <div>
+        <h1>검증하기</h1>
         <input
           ref={this.input}
           type="password"

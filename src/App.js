@@ -1,21 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react';
 // import ScrollBox from './ScrollBox';
 // import Say from './Say';
 // import Counter from './Counter';
 // import Event from './EventPractice';
 // import ValidationSample from './ValidationSample';
-import IterationSample from './IterationSample';
+// import IterationSample from './IterationSample';
+// import LifeCycleSample from './LifeCycleSample';
+// import ErrorBoundary from './ErrorBoundary';
+// import Info from './Info'
+import Average from './Average';
 
-class App extends Component {
-  render() {
-    return (
-        <IterationSample/>
-        // {/* <ScrollBox ref={ref => (this.scrollBox = ref)} />
-        // <button onClick={() => this.scrollBox.scrollToBottom()}>
-        //   맨 밑으로
-        // </button> */}
-    );
-  }
+const App = () => {
+  return <Average />
 }
 
 export default App;
